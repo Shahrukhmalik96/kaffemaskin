@@ -1,0 +1,68 @@
+### Properties
+pluggedIn ()
+ - if the machine got any power
+
+connectedToWater ()
+- check if the water is connected with the coffe machine
+ - false if not connected
+ - true if connected
+
+numberOfCups (number)
+  - to check if the machine has got at least 1 cup to serve coffee
+   value: 100 cups from the beginning
+
+
+powderPerCup(amount)
+   - amount of powder per cup
+    amount: 7 gram powder per cup
+
+pricePerCup (amount)
+ type: number (sek)
+ value: 20 kr
+ how much the price is for one cup
+
+insertedMoney (amount)
+ type: number (sek)
+ the money inserted when you buy a hot drink
+
+
+
+### Methods
+checkIfPayed (boolean)
+- is called to check if the person payed enough money for the coffee to be served
+return value: string, "you payed enough money, here is your hot drink"
+
+checkIfPayedtomuch (boolean)
+- check if the amount of money you inserted into the machine isn't more than 20 kr
+insertMoney (number)
+return money/coin if payed to much, else serve coffee
+
+pressCancelButton (boolean)
+ - if a person decides to cancel 
+
+checkIfMilkEnough (boolean)
+ - to check if there is enough milk to serve a cup of coffee
+
+returnMoneyIfCancel (boolean)
+ - return the money if you cancel
+
+pressHotChocolateButton (boolean)
+ - check if button is pressed
+
+pressHotCoffeeButton()
+ - return string (message that you got your coffe or why not)
+
+pressCapuccinoButton ()
+ - return string (message "you pressed the the capuccino button)
+
+pressHotChocolateButton (boolean)
+ - chocolate button
+
+insertMoney ()
+- the amount of money inserted for a cup of hot drink
+
+checkIfThereIsCups()
+
+
+
+

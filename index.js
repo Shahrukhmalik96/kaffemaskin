@@ -5,11 +5,19 @@ class CoffeeMachine {
     constructor() {
         this.pluggedIn = false;
         this.connectedToWater = false;
+        // in grams how much coffee
+        this.PowderPerCupCoffe = 0;
+        this.PowderPerCupCapuccino = 0;
+        this.PowderPerCupChocolate = 0;
+        this.CoffeButton = false
+        this.ChocolateButton = false
+        this.CapuccinoButton = false
         this.numberOfCups = 0;
         this.insertedMoney = 0;
         //these two properties in gram
-        this.amountOfCoffee = 13;
-        this.coffeePerCup = 13;
+        this.amountOfCoffeePowder = 350;
+        this.amountOfCapuccinoPowder = 350;
+        this.amountOfChocolatePowder = 350;
         this.makecoffee = false;
         this.coffeeServed = false;
 
@@ -22,21 +30,58 @@ class CoffeeMachine {
     connectToWater() {
         this.connectedToWater = true;
     }
+    checkIfEnoughCoffeePowderForACup(amount) {
+        this.PowderPerCupCoffe = 7;
+    }
+
+    checkIfEnoughCapuccinoPowderForACup(amount) {
+        this.PowderPerCupCapuccino = 7;
+    }
+
+    checkIfEnoughChocolatePowderForACup(amount) {
+        this.PowderPerCupChocolate = 7;
+    }
+
+    checkIfAnyCupsLeft() {
+        return this.numberOfCups >= 1;
+    }
+
+    checkIfThereIsCups(amount) {
+
+        this.numberOfCups = 2;
+    }
+
+    checkIfPayed(inserted) {
+        this.insertedMoney = 20;
+    }
+
+    pressHotCoffeeButton() {
+
+        this.CoffeButton = true;
+    }
+
+    receivingCoffee() {
+
+        this.coffeeServed = true;
+    }
+
+
+
+
+
+
+
     fillWithCoffee(amount) {
         this.amountOfCoffee = 13;
     }
-    fillWithCups(amount) {
-        this.numberOfCups = 1;
-    }
-    insertMoney(inserted) {
-        this.insertedMoney = 10; 
-    }
+
+
     pressStartButton() {
         this.makingcoffee = true;
     }
 
     serveACupOfCoffee() {
-    
+
         this.coffeeServed = true;
     }
     //internal use of the machine
