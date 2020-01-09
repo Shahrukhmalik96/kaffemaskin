@@ -1,13 +1,13 @@
 ### Properties
-pluggedIn ()
+pluggedIn 
  - if the machine got any power
 
-connectedToWater ()
+connectedToWater
 - check if the water is connected with the coffe machine
  - false if not connected
  - true if connected
 
-numberOfCups (number)
+numberOfCups
   - to check if the machine has got at least 1 cup to serve coffee
    value: 100 cups from the beginning
 
@@ -24,6 +24,9 @@ pricePerCup (amount)
 insertedMoney (amount)
  type: number (sek)
  the money inserted when you buy a hot drink
+
+ insertedDebitCard ()
+ type: number
 
 
 
@@ -43,6 +46,12 @@ pressCancelButton (boolean)
 checkIfMilkEnough (boolean)
  - to check if there is enough milk to serve a cup of coffee
 
+ checkIfChocolatePowderEnough()
+ return string: "You have enough chocolatepowder"
+
+ checkIfCapuccinoPowderEnough()
+ 
+
 returnMoneyIfCancel (boolean)
  - return the money if you cancel
 
@@ -60,6 +69,8 @@ pressHotChocolateButton (boolean)
 
 insertMoney ()
 - the amount of money inserted for a cup of hot drink
+  type: number (sek)
+  if more than 20 kr is inserted, return string "you can only insert 20 kr"
 
 checkIfThereIsCups()
 

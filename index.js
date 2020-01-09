@@ -14,12 +14,15 @@ class CoffeeMachine {
         this.CapuccinoButton = false
         this.numberOfCups = 0;
         this.insertedMoney = 0;
+        this.insertedDebitCard = 0;
         //these two properties in gram
         this.amountOfCoffeePowder = 350;
         this.amountOfCapuccinoPowder = 350;
         this.amountOfChocolatePowder = 350;
         this.makecoffee = false;
         this.coffeeServed = false;
+        this.capuccinoServed = false;
+        this.chocolateServed = false; 
 
 
     }
@@ -51,8 +54,14 @@ class CoffeeMachine {
         this.numberOfCups = 2;
     }
 
-    checkIfPayed(inserted) {
+    checkIfPayed() {
         this.insertedMoney = 20;
+        
+    }
+
+    insertDebitCardPayment() {
+
+        this.insertedDebitCard = 20;
     }
 
     pressHotCoffeeButton() {
@@ -65,7 +74,25 @@ class CoffeeMachine {
         this.coffeeServed = true;
     }
 
+    pressHotCapuccinoButton() {
+        this.CapuccinoButton = true
+        
+    }
+    
+    receivingCapuccino() {
+        this.capuccinoServed = true;
 
+    }
+
+    pressHotChocolateButton() {
+
+        this.ChocolateButton = true;
+    }
+
+    receivingChocolate() {
+
+        this.chocolateServed = true;
+    }
 
 
 
