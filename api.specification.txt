@@ -4,7 +4,6 @@ pluggedIn
 
 connectedToWater
 - check if the water is connected with the coffe machine
- - false if not connected
  - true if connected
 
 numberOfCups
@@ -13,8 +12,8 @@ numberOfCups
 
 
 powderPerCup(amount)
-   - amount of powder per cup
-    amount: 7 gram powder per cup
+ - amount of powder per cup
+   amount: 7 gram powder per cup
 
 pricePerCup (amount)
  type: number (sek)
@@ -33,24 +32,33 @@ insertedMoney (amount)
 ### Methods
 checkIfPayed (boolean)
 - is called to check if the person payed enough money for the coffee to be served
-return value: string, "you payed enough money, here is your hot drink"
+return true or false, "you payed enough money, here is your hot drink"
 
 checkIfPayedtomuch (boolean)
 - check if the amount of money you inserted into the machine isn't more than 20 kr
 insertMoney (number)
-return money/coin if payed to much, else serve coffee
+return value: money/coin if payed to much, else serve coffee
 
 pressCancelButton (boolean)
  - if a person decides to cancel 
+   check if its true
+
 
 checkIfMilkEnough (boolean)
  - to check if there is enough milk to serve a cup of coffee
-
- checkIfChocolatePowderEnough()
- return string: "You have enough chocolatepowder"
-
- checkIfCapuccinoPowderEnough()
+ return value: true if there is enough milk
  
+
+ checkIfChocolatePowderEnough(boolean)
+ return value: true "You have enough chocolatepowder"
+ return false "you dont have enough chocolatepowder"
+
+ checkIfCapuccinoPowderEnough(boolean)
+ return value: true "You have enough powder"
+
+ checkIfEnoughMilk()
+ return value: true "
+
 
 returnMoneyIfCancel (boolean)
  - return the money if you cancel

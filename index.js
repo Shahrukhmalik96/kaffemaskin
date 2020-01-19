@@ -55,7 +55,7 @@ class CoffeeMachine {
     }
 
     checkIfPayed() {
-        this.insertedMoney = 20;
+        this.insertedMoney = true;
         
     }
 
@@ -92,6 +92,15 @@ class CoffeeMachine {
     receivingChocolate() {
 
         this.chocolateServed = true;
+    }
+
+    debitCardCoffeButton() {
+        this.insertedDebitCard = 20;
+    }
+
+    debitCardCapuccinoButton() {
+
+
     }
 
 

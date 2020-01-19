@@ -1,0 +1,21 @@
+Kaffemaskin ska kunna brygga varm kaffe, cappuccino och choklad
+Man ska ha betalat tillräckligt innan knapparna funkar
+Det går bara att göra ett köp åt gången
+Kaffe maskinen ska ha tre knappar som berättar om vilken sorts dryck de vill ha.
+Kaffe maskinen ska vara kopplad till ström och vatten för att fungera
+Kaffe maskinen ska innehålla mjölk, vatten, choklad pulver, kaffepulver, capuccinopulver för att kunna producera den valda drycken, tillräckligt mycket för att brygga. 
+Kaffemaskinen ska kunna ta emot kort och mynt
+Kaffemaskinen ska även ha en avbryt knapp som gör att köpet avbryts och köpet går därför inte igenom, mynt returneras i kapseln under kaffemaskinen. 
+Alla sorter kostar 20 kr
+Man ska endast kunna inserta 10 och 5 kr mynt
+Insertar man för mycket mynt eller fel mynt får man det tillbaka via retur kapseln
+alla drycker innehåller 135 ml
+Det ska även ha en display som visar när drycken har bryggts klart. 
+Om en ingredients saknas visas detta på skärmen och kaffemaskinen ska rekommendera att att välja en annan dryck som är tillgänglig eller om man vill ska man kunna avbryta köpet.
+Köpet genomförs endast ifall man har tryckt på en av de valda knapparna och avbryts endast ifall knappen för de valda dryckerna inte har tryckts.  
+Kopparna droppas efter att man har tryckt på någon av de valda knapparna och köpet går igenom.
+Som högst finns det 100 koppar tillgängliga och det behövs därför maintenance av maskinen ifall kopparna tar slut. 
+7 g per kopp.  kaffepulver, choklad pulver och capuccinopulver. 
+Finns tre olika behållare, 400 g per behållare
+
+
